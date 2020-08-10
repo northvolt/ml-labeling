@@ -4,8 +4,7 @@ Instructions and example images for labeling of data.
 
 # Description
 
-Images of material on a roller. During manufacturing, certain type of defects can arise. We want to detect and find the locations of these defects. The material should be smooth without any apparent anomalies.
-
+Images of material on a roller. During manufacturing, certain type of anomalies and defects can arise. We want to detect and find the locations of these defects. The material should be smooth without any apparent anomalies. Note: most images will not contain any defects at all.
 
 # Region of interest
 
@@ -29,7 +28,6 @@ There are 3 categories of bounding boxes: anomaly, knurling and anomaly-edge:
 
 3. anomaly-edge: anomalies that occur in the bare foil of the photos
 ![anomaly-edge](./vision-anomaly-detection/examples/anomaly-bare-foil/2020-07-02T07-37-28.67626241Z.jpg)
-
 
 
 # Bad examples
