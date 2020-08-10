@@ -8,7 +8,7 @@ Images of material on a roller. During manufacturing, certain type of anomalies 
 
 # Region of interest
 
-The images show material on a roller. The outmost parts (left and right) are the roller. We are only interested in the material and the bare foil, see image:
+The images show material on a roller. The outmost parts (left and right) are the roller. We are only interested in the material and the bare foil. Where in the image the region of interest is will vary slightly:
 ![Region of interest](./vision-anomaly-detection/examples/roi-unpressed.jpg)
 
 Any defect or anomalies outside of this region are irrelevant and should not be labeled.
