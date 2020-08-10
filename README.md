@@ -4,7 +4,7 @@ Instructions and example images for labeling of data.
 
 # Description
 
-Images of material on a roller. During manufacturing, certain type of anomalies and defects can arise. We want to detect and find the locations of these defects. The material should be smooth without any apparent anomalies. Note: most images will not contain any defects at all.
+Images of material on a roller. During manufacturing, certain type of anomalies and defects can arise. We want to detect and find the locations of these defects. The material should be smooth without any apparent anomalies. Note: some images will not contain any defects at all and should be left without any bounding boxes.
 
 # Region of interest
 
