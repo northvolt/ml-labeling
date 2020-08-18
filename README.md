@@ -32,8 +32,8 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 ![knurling](./vision-anomaly-detection/examples/knurling/2020-07-06T12-37-15.649572202Z.jpg)
 
 
-3. anomaly-edge: anomalies that occur in the bare foil of the photos
-![anomaly-edge](./vision-anomaly-detection/examples/anomaly-bare-foil/2020-07-02T07-37-28.67626241Z.jpg)
+3. foil-anomaly: anomalies that occur in the bare foil of the photos
+![foil-anomaly](./vision-anomaly-detection/examples/anomaly-bare-foil/2020-07-02T07-37-28.67626241Z.jpg)
 
 
 ### Good examples
