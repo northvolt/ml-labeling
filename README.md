@@ -40,11 +40,14 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 
 Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible:
 
-![anomaly-unannotated](./vision-anomaly-detection/examples/anomaly-unannotated.png)
-![anomaly-annotated](./vision-anomaly-detection/examples/anomaly-annotated.png)
+<img src='./vision-anomaly-detection/examples/anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/anomaly-annotated.png' width="200" height="200" />
 
 
 ### Bad examples
+
+Bounding box too big:
+
+<img src='./vision-anomaly-detection/examples/bad-bbox/anomaly-bad-annotation.png' width="200" height="200" />
 
 We do not care about defects that are not in the region of interest, for example:
 
