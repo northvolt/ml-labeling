@@ -45,7 +45,7 @@ Don't spend too much time annotating everything perfect, however try to label as
 
 ### Bad examples
 
-Bounding box too big:
+Area around annotated defect is too large:
 
 <img src='./vision-anomaly-detection/examples/bad-bbox/anomaly-bad-annotation.png' width="200" height="200" />
 
