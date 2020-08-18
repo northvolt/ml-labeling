@@ -38,6 +38,11 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 
 ### Good examples
 
+Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible:
+
+![anomaly-unannotated](./vision-anomaly-detection/examples/anomaly-unannotated.png)
+![anomaly-annotated](./vision-anomaly-detection/examples/anomaly-annotated.png)
+
 
 ### Bad examples
 
