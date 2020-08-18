@@ -19,9 +19,9 @@ The images show material on a roller. The outmost parts (left and right) are the
 
 Any defect or anomalies outside of this region are irrelevant and should not be labeled.
 
-### Good examples
+# Types of defects
 
-There are 3 categories of defects: anomaly, knurling and foil-anomaly:
+There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 
 1. anomaly: any fairly obvious dent, hole or scratch in the region of interest, but not on the bare foil:
 ![anomaly](./vision-anomaly-detection/examples/anomaly/2020-07-02T08-42-00.650174555Z.jpg)
@@ -34,6 +34,9 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly:
 
 3. anomaly-edge: anomalies that occur in the bare foil of the photos
 ![anomaly-edge](./vision-anomaly-detection/examples/anomaly-bare-foil/2020-07-02T07-37-28.67626241Z.jpg)
+
+
+### Good examples
 
 
 ### Bad examples
