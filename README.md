@@ -59,3 +59,13 @@ Area around annotated defect is too large:
 We do not care about defects that are not in the region of interest, for example:
 
 ![bad bbox](./vision-anomaly-detection/examples/bad-bbox/2020-07-01T10-57-45.046169911Z.jpg)
+
+### Labeling example 
+Image pre labeling: 
+
+![pre-labeling](./vision-anomaly-detection/examples/unannotated.png)
+
+Image after labeling, where green refers to an anomaly, blue refers to knurling and orange refers to foil-anomalies 
+
+![post-labeling](./vision-anomaly-detection/examples/annotated.png)
+
