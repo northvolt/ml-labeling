@@ -35,6 +35,10 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 3. foil-anomaly: anomalies that occur in the bare foil of the photos
 ![foil-anomaly](./vision-anomaly-detection/examples/anomaly-bare-foil/2020-07-02T07-37-28.67626241Z.jpg)
 
+Moreover, the images could show different material with certain characteristics. For example, the wrinkles in the bare foil as shown in the image below should not be treated as a foil-anomaly. The focus with respect to foil-anomalies should be on more local anomalies as visualized in the foil-anomaly example above. 
+
+![unpressed-wrinkles](./vision-anomaly-detection/examples/unpressed.png)
+
 
 ### Good examples
 Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible:
