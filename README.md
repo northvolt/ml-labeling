@@ -65,7 +65,7 @@ Image pre labeling:
 
 ![pre-labeling](./vision-anomaly-detection/examples/unannotated.png)
 
-Image after labeling, where green refers to an anomaly, blue refers to knurling and orange refers to foil-anomalies 
+Image after labeling, where green refers to an anomaly, blue refers to knurling and orange refers to foil-anomalies:
 
 ![post-labeling](./vision-anomaly-detection/examples/annotated.png)
 
