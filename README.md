@@ -37,10 +37,17 @@ There are 3 categories of defects: anomaly, knurling and foil-anomaly.
 
 
 ### Good examples
-
 Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible:
 
+#### Anomaly 
+
 <img src='./vision-anomaly-detection/examples/anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/anomaly-annotated.png' width="200" height="200" />
+
+#### Knurling 
+<img src='./vision-anomaly-detection/examples/knurling-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/knurling-annotated.png' width="200" height="200" />
+
+#### Foil anomaly
+<img src='./vision-anomaly-detection/examples/foil-anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/foil-anomaly-annotated.png' width="200" height="200" />
 
 
 ### Bad examples
