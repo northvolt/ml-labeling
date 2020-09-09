@@ -11,7 +11,7 @@ Note: some images may not contain any defects at all and should be left without 
 
 You do not have a lot of time to label, so please only focus on the most obvious defects. If you are unsure, skip it or leave the defect unlabeled.
 
-
+# Pressing 
 ## Region of interest
 
 The images show material on a roller. The outmost parts (left and right) are the roller. We are only interested in the material and the bare foil. Where the region of interest is will vary slightly in each image:
@@ -45,13 +45,13 @@ Don't spend too much time annotating everything perfect, however try to label as
 
 #### Anomaly 
 
-<img src='./vision-anomaly-detection/examples/anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/anomaly-annotated.png' width="200" height="200" />
+<img src='./vision-anomaly-detection/examples/anomaly/anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/anomaly/anomaly-annotated.png' width="200" height="200" />
 
 #### Knurling 
-<img src='./vision-anomaly-detection/examples/knurling-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/knurling-annotated.png' width="200" height="200" />
+<img src='./vision-anomaly-detection/examples/knurling/knurling-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/knurling/knurling-annotated.png' width="200" height="200" />
 
 #### Foil anomaly
-<img src='./vision-anomaly-detection/examples/foil-anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/foil-anomaly-annotated.png' width="200" height="200" />
+<img src='./vision-anomaly-detection/examples/anomaly-bare-foil/foil-anomaly-unannotated.png' width="200" height="200" /> <img src='./vision-anomaly-detection/examples/anomaly-bare-foil/foil-anomaly-annotated.png' width="200" height="200" />
 
 
 ### Bad examples
@@ -72,4 +72,49 @@ Image pre labeling:
 Image after labeling, where green refers to an anomaly, blue refers to knurling and orange refers to foil-anomalies:
 
 ![post-labeling](./vision-anomaly-detection/examples/annotated.png)
+
+# Coating 
+## Region of interest
+
+The images show material on a roller. The outmost parts (left and right) are the roller. We are only interested in the material and the bare foil. Where the region of interest is will vary slightly in each image:
+![Region of interest](./vision-anomaly-detection/coater-examples/roi-coater.png)
+
+Any defect or anomalies outside of this region are irrelevant and should not be labeled. 
+
+## Types of defects
+
+There are 3 categories of defects: anomaly, knurling and foil-anomaly. However, considering coating segmentation the defect of type __knurling__ is __NOT__ present and should hence not be selected as a label. Thus, the images will only contain anomaly and foil-anomaly defects visualized in the following figures: 
+
+1. anomaly: any fairly obvious dent, hole or scratch in the region of interest, but not on the bare foil. The anomalies are marked by the red rectangles:
+![anomaly](./vision-anomaly-detection/coater-examples/anomaly/anomaly-small-foil.png)
+![anomaly](./vision-anomaly-detection/coater-examples/anomaly/anomaly-large-foil.png)
+
+2. foil-anomaly: anomalies that occur in the bare foil of the photos. The foil-anomalies are marked by orange rectangles. Note, __anomalies__ not on the bare foil are __not__ marked out in the foil-anomaly examples. 
+![foil-anomaly](./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-small-foil.png)
+![foil-anomaly](./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-large-foil.png)
+
+## Labeling instructions 
+Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible. It is important to label the anomalies that are the most obvious when first presented to any new image. 
+
+## Examples 
+The leftmost image visualizes the unsegmented defect, and the rightmost image the segmented defect.
+### Good examples 
+#### Anomaly 
+<img src='./vision-anomaly-detection/coater-examples/anomaly/anomaly-example-unan.png' width="200" height="200" /> <img src='./vision-anomaly-detection/coater-examples/anomaly/anomaly-good.png' width="200" height="200" />
+
+#### Foil-anomaly 
+<img src='./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-unan.png' width="200" height="200" /> <img src='./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-good.png' width="200" height="200" />
+
+### Bad examples 
+Here, the segmented area around the defect is too large. 
+#### Anomaly
+<img src='./vision-anomaly-detection/coater-examples/anomaly/anomaly-example-unan.png' width="200" height="200" /> <img src='./vision-anomaly-detection/coater-examples/anomaly/anomaly-bad.png' width="200" height="200" />
+
+#### Foil-anomaly
+<img src='./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-unan.png' width="200" height="200" /> <img src='./vision-anomaly-detection/coater-examples/foil-anomaly/foil-anomaly-bad.png' width="200" height="200" />
+
+
+
+
+
 
