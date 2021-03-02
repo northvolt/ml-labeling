@@ -24,15 +24,28 @@ Due to the nature of the stacker machine i.e., that it runs in a non-continous m
 ![Artefact2](../images/stacker/artefact2.jpg)
 
 
-### Annotation example
+### Annotation examples
+
 Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible.
 
+#### Example 1
+
 Given an image to annotate:
-![Example image](../images/stacker/full-size.png)
+![Example image](../images/stacker/unlabeled1.png)
 
 The defect is located:
-![Example image defect arrow](../images/stacker/full-size-arr.png)
+![Example image defect arrow](../images/stacker/unlabeled1-arrow.png)
 
-The image is zoomed and the defect is then annotated:
+The defect is annotated:
+![Example image defect arrow](../images/stacker/labeled1.png)
 
-<img src='../images/stacker/unlabeled-defect.png' width="200" height="200" /> <img src='../images/stacker/labeled-defect.png' width="200" height="200" />
+#### Example 2
+
+Given an image to annotate:
+![Example image](../images/stacker/unlabeled2.png)
+
+The defect is located:
+![Example image defect arrow](../images/stacker/unlabeled2-arrow.png)
+
+The defect is annotated:
+![Example image defect arrow](../images/stacker/labeled2.png)
