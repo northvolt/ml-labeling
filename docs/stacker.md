@@ -8,7 +8,7 @@ The task is to annotate or "label" defects on the electrodes during stacking in 
 
 ### Region of interest
 
-We are only interested in defects on the coated area (see image below). If a tab should be folded on top of the material, annotate it as a defect or decline the task.
+We are only interested in defects on the coated area, eg ignore the tab and roller (see image below). If a tab should be folded on top of the material, annotate it as a defect or decline the task.
 
 ![Region of interest](../images/stacker/roi.jpg)
 
