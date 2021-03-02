@@ -22,6 +22,9 @@ Many images contain long horizontal lines. These are camera specific artefacts d
 
 ![Artefact2](../images/stacker/artefact2.jpg)
 
+Closeup:
+![Artefact3](../images/stacker/camera-jagged.png)
+
 ### Annotation example
 Given an image to annotate:
 ![Example image](../images/stacker/full-size.png)
