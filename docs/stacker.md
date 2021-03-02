@@ -15,12 +15,24 @@ The region of interest regarding this task is the coated area as presented in th
 
 Any defect or anomalies outside of this region are irrelevant and should not be labeled.
 
+## Camera artefacts
+
+Due to the nature of the stacker machine i.e., that it runs in a non-continous manner with lots of stops, some images suffer from camera specific artefacts which should not be annotated as defects. Below are two examples of aforementioned artefact:
+
+![Artefact1](../images/stacker/artefact1.jpg)
+
+![Artefact2](../images/stacker/artefact2.jpg)
+
+
 ### Annotation example
-Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible:
+Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible.
 
 Given an image to annotate:
 ![Example image](../images/stacker/full-size.png)
 
-The defect is located and annotated:
+The defect is located:
+![Example image defect arrow](../images/stacker/full-size-arr.png)
+
+The image is zoomed and the defect is then annotated:
 
 <img src='../images/stacker/unlabeled-defect.png' width="200" height="200" /> <img src='../images/stacker/labeled-defect.png' width="200" height="200" />
