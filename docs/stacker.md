@@ -1,4 +1,4 @@
-# Presser
+# Stacker
 Instructions and example images for annotation of stacker image data.
 
 # Description
