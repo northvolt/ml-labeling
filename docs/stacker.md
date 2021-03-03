@@ -30,6 +30,18 @@ Due to the nature of the stacker machine i.e., that it runs in a non-continous m
 
 Don't spend too much time annotating everything perfect, however try to label as few non-defect pixels as possible.
 
+### Good example
+
+All pixels of the defect have been marked and fits tightly around the defect.
+
+<img src='../images/presser/anomaly-unannotated.png' width="200" height="200" /> <img src='../images/presser/anomaly-annotated.png' width="200" height="200" />
+
+### Bad example
+
+Area around annotated defect is too large:
+
+<img src='../images/presser/bad-bbox/anomaly-bad-annotation.png' width="200" height="200" />
+
 #### Example 1
 
 Given an image to annotate:
