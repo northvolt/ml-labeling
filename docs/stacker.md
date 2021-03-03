@@ -3,9 +3,11 @@ Instructions and example images for annotation of stacker image data.
 
 # Description
 
-The task is to annotate defects on the electrodes during stacking in cell assembly. The defects are annotated by the use of an external tool available as a service on Amazon Web Services. The maximum time to spend annotating one image is set to five minutes, if a task is completed before time exceeds simply press _submit_ in the bottom left corner and proceed.
+The task is to annotate defects on the electrodes during stacking in cell assembly. The defects are annotated by the use of an external tool available as a service on Amazon Web Services. If you're interested in helping out, let Martin Hwasser know and he will send an invite.
 
-__N.B.__ if there are no defects present in an image, select _Nothing to label_ in the bottom left corner followed by _submit_ in order to move on to the next image. In case of uncertainty, press _Decline task_ to move on to the next image.
+The maximum time to spend annotating one image is set to a few minutes, if a task is completed before time exceeds simply press _Submit_ in the bottom left corner and proceed.
+
+__N.B.__ if there are no defects present in an image, select _Nothing to label_ in the bottom left corner followed by _Submit_ in order to move on to the next image. In case of uncertainty, press _Decline task_ to move on to the next image.
 
 ## Region of interest
 
