@@ -11,9 +11,13 @@ __N.B.__ if there are no defects present in an image, select _Nothing to label_ 
 
 ## Region of interest
 
-The region of interest regarding this task is the coated area as presented in the Figure below. Hence, in the case of a tab being present, this should not be annotated.
+The region of interest regarding this task is the coated area, and the tab in case of one being present.
 
-![Region of interest](../images/stacker/roi.jpg)
+### Region of interest tab present
+![Region of interest](../images/stacker/Roi-tab.png)
+
+### Region of interest no tab present
+![Region of interest](../images/stacker/Roi-notab.png)
 
 Any defect or anomalies outside of this region are irrelevant and should not be labeled.
 
