@@ -3,7 +3,7 @@ Instructions and example images for annotation of stacker image data.
 
 # Description
 
-The task is to annotate defects on the electrodes during stacking in cell assembly. The defects are annotated by the use of an external tool available as a service on Amazon Web Services. If you're interested in helping out, let Martin Hwasser know and he will send an invite.
+The task is to annotate defects on the electrodes during stacking in cell assembly. The defects are annotated by the use of an external tool available as a service on Amazon Web Services. If you're interested in helping out, write in the [Visionaries](https://teams.microsoft.com/l/channel/19%3a54040a5daa1e4eb5be816ec23b7a8554%40thread.tacv2/Visionaries?groupId=3f4158ce-6529-42cb-808f-992432bd4031&tenantId=706c5db9-5278-483b-b622-70084f823a12) channel and we will send an invite.
 
 The maximum time to spend annotating one image is set to a few minutes, if a task is completed before time exceeds simply press _Submit_ in the bottom left corner and proceed.
 
